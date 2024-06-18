@@ -2,55 +2,47 @@
     margin: 0;
 }
 
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-
+body{
+    background-color: black;
+}
 
 .head{
     height: 30px;
-    background-color: rgb(82, 95, 168);
+    background-color: #4b066b;
 }
 header{
     height: 120px;
-    background-color: rgb(135, 168, 228);
+    background-image: url(https://wallpapers.com/images/hd/purple-gaming-nepi2tnxp6g0mvz9.jpg);
+background-size: cover;
 }
 
 .signup{
-    height: 70px;
     background-color: rgb(186, 223, 240);
 }
 nav{
-    height: 200px;
-    background-color: rgb(211, 211, 231);
+    background-color: #4b066b;
+    width: 100%;
 }
 
 .box1{
-    height:200px ;
     background-color: rgb(223, 223, 173);
-    float: left;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn9kiHiAJRWmd_OZ_rP_14O-LUHmCNKKnZALHmhfY86MdX4am4kTrV_7WYtEHK2oxFG0A&usqp=CAU);
+background-size: cover;
 }
 
 .box2{
-    height:200px ;
     background-color: rgb(122, 127, 202);
-    float: left;
-
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/69eaea114338715.60391d52c518b.png);
+background-size: cover;
 }
 
 .box3{
-    height:200px ;
     background-color: rgb(233, 141, 141);
-    float: left;
+    background-image: url(https://cdn.europosters.eu/image/350/posters/call-of-duty-modern-warfare-2-task-force-i149551.jpg);
+background-size: cover;
+}
+
+.divbox{
 
 }
 
@@ -98,7 +90,6 @@ nav{
 @media only screen and (min-width: 600px) {
     nav{
         height: 200px;
-        background-color: rgb(211, 211, 231);
         position: absolute;
         top: 150px;
         
