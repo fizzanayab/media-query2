@@ -17,7 +17,18 @@ background-size: cover;
 }
 
 .signup{
-    background-color: rgb(186, 223, 240);
+    background-image: url(https://media.istockphoto.com/id/1432965103/video/neon-flash-light-structures-hi-tech-neon-sci-fi-tunel-trendy-neon-glow-lines-form-pattern-and.jpg?s=640x640&k=20&c=9tpJzfgnVaqrFa6S9HHtUXVRQNKWFGKw34yTyewlZyM=);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: antiquewhite;
+    
+}
+
+a{
+text-decoration: none;
+color: rgb(252, 58, 252);
 }
 nav{
     background-color: #4b066b;
@@ -25,24 +36,70 @@ nav{
 }
 
 .box1{
+    color: #e8bcfd;
+
+    display: flex;
+    justify-items: center;
+    align-items: center;
     background-color: rgb(223, 223, 173);
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn9kiHiAJRWmd_OZ_rP_14O-LUHmCNKKnZALHmhfY86MdX4am4kTrV_7WYtEHK2oxFG0A&usqp=CAU);
 background-size: cover;
 }
-
+.box1 :hover{
+    transform: scale(1.5);
+    transition: transform .2s;
+    color: rgb(252, 58, 252);
+    box-shadow: 0 5px 15px rgba(206, 101, 233, 0.4);
+}
 .box2{
+    color: #e8bcfd;
+
     background-color: rgb(122, 127, 202);
     background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/69eaea114338715.60391d52c518b.png);
 background-size: cover;
+display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.box2 :hover{
+    transform: scale(1.5);
+    transition: transform .2s;
+    color: rgb(252, 58, 252);
+    box-shadow: 0 5px 15px rgba(206, 101, 233, 0.4);
 }
 
 .box3{
+    color: #e8bcfd;
     background-color: rgb(233, 141, 141);
     background-image: url(https://cdn.europosters.eu/image/350/posters/call-of-duty-modern-warfare-2-task-force-i149551.jpg);
 background-size: cover;
+display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.box3 :hover{
+    transform: scale(1.5);
+    transition: transform .2s;
+    color: rgb(252, 58, 252);
+    box-shadow: 0 5px 15px rgba(206, 101, 233, 0.4);
 }
 
 .divbox{
+ 
+margin-left: 30%;
+width: 150px;
+height: 50px;
+background-color: #4b066b;
+display: flex;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    text-shadow: 2px 2px #1c0427;
+}
+
+i{
+    margin-right: 4px;
+    margin-left: 2px;
 
 }
 
