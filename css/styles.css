@@ -6,6 +6,9 @@ body{
     background-color: black;
 }
 
+/* First index tab */
+
+   /* Head start */
 .head{
     height: 30px;
     background-color: #4b066b;
@@ -14,6 +17,7 @@ body{
 .headr{
     float: right;
 }
+
 header{
     height: 120px;
     background-image: url(https://wallpapers.com/images/hd/purple-gaming-nepi2tnxp6g0mvz9.jpg);
@@ -26,11 +30,14 @@ font-size: 25px;
 font-weight: 900;
 }
 
-
 header :hover{
     color: #4b066b;
     background-color: rgb(243, 105, 225);
 }
+
+   /* Head End */
+
+   /* Content Start */
 
 .signup{
     background-image: url(https://media.istockphoto.com/id/1432965103/video/neon-flash-light-structures-hi-tech-neon-sci-fi-tunel-trendy-neon-glow-lines-form-pattern-and.jpg?s=640x640&k=20&c=9tpJzfgnVaqrFa6S9HHtUXVRQNKWFGKw34yTyewlZyM=);
@@ -39,13 +46,13 @@ header :hover{
     align-items: center;
     justify-content: center;
     color: antiquewhite;
-    
 }
 
 a{
 text-decoration: none;
 color: rgb(252, 58, 252);
 }
+
 nav{
     background-color: #4b066b;
     width: 100%;
@@ -54,22 +61,20 @@ nav{
     align-items: center;
 }
 
-
 .nav1{
     width: 15%;
     height: 150px ;
     background-color: rgb(51, 16, 56);
     float: left;
-    
+    color: #e8bcfd; 
 }
+
 nav :hover{
     transform: scale(1.1);
     transition: transform .2s;
     color: rgb(252, 58, 252);
     box-shadow: 0 5px 15px rgba(206, 101, 233, 0.4);
 }
-
-
 
 .box1{
     color: #e8bcfd;
@@ -79,26 +84,26 @@ nav :hover{
     align-items: center;
     background-color: rgb(223, 223, 173);
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn9kiHiAJRWmd_OZ_rP_14O-LUHmCNKKnZALHmhfY86MdX4am4kTrV_7WYtEHK2oxFG0A&usqp=CAU);
-background-size: cover;
-
+    background-size: cover;
 }
+
 .box1 :hover{
     transition: transform .6s;
-
     transform: scale(1.5);
     color: rgb(252, 58, 252);
     box-shadow: 0 5px 15px rgba(206, 101, 233, 0.4);
 }
+
 .box2{
     color: #e8bcfd;
-
     background-color: rgb(122, 127, 202);
     background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/69eaea114338715.60391d52c518b.png);
-background-size: cover;
-display: flex;
+    background-size: cover;
+    display: flex;
     justify-items: center;
     align-items: center;
 }
+
 .box2 :hover{
     transform: scale(1.5);
     transition: transform .6s;
@@ -110,11 +115,12 @@ display: flex;
     color: #e8bcfd;
     background-color: rgb(233, 141, 141);
     background-image: url(https://cdn.europosters.eu/image/350/posters/call-of-duty-modern-warfare-2-task-force-i149551.jpg);
-background-size: cover;
-display: flex;
+    background-size: cover;
+    display: flex;
     justify-items: center;
     align-items: center;
 }
+
 .box3 :hover{
     transform: scale(1.5);
     transition: transform .6s;
@@ -123,12 +129,11 @@ display: flex;
 }
 
 .divbox{
- 
-margin-left: 30%;
-width: 150px;
-height: 50px;
-background-color: #4b066b;
-display: flex;
+    margin-left: 30%;
+    width: 150px;
+    height: 50px;
+    background-color: #4b066b;
+    display: flex;
     align-items: center;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 800;
@@ -138,15 +143,15 @@ display: flex;
 i{
     margin-right: 4px;
     margin-left: 2px;
-
 }
+    /* Content End */
 
+    /* Media Query Start */
 @media only screen and (max-width: 600px) {
     nav{
         height: 200px;
         position: absolute;
         top: 150px;
-        
     }
 
     .signup{
@@ -154,40 +159,35 @@ i{
         height: 100px;
         position: absolute;
         top: 350px;
-        
     }
+
     .box1{
         width: 100%;
         height: 100px;
         position: absolute;
         top: 450px;
-        
     }
+
     .box2{
         width: 100%;
         height: 100px;
         position: absolute;
         top: 550px;
-        
-        
     }
+
     .box3{
         width: 100%;
         height: 100px;
         position: absolute;
         top: 650px;
-
     }
-
 }
-
 
 @media only screen and (min-width: 600px) {
     nav{
         height: 200px;
         position: absolute;
         top: 150px;
-        
     }
 
     .signup{
@@ -195,55 +195,52 @@ i{
         height: 150px;
         position: absolute;
         top: 350px;
-        
     }
+
     .box1{
         width: 50%;
         height: 150px;
         position: absolute;
         top: 350px;
         left: 50%;
-        
     }
+
     .box2{
         width: 50%;
         height: 150px;
         position: absolute;
         top: 500px;
-        
-        
     }
+
     .box3{
         width: 50%;
         height: 150px;
         position: absolute;
         top: 500px;
         left: 50%;
-
     }
 }
 
-
-
 @media only screen and (min-width: 800px) {
-  
+
     .signup{
         width: 100%;
         height: 70px;
         position: absolute;
         top: 350px;
     }
+
     nav{
         height: 200px;
         position: absolute;
-       top: 420px;
+        top: 420px;
     }
 
     .box1{
         width: 33.33%;
-position: absolute;
-top: 150px;
-left: 0;
+        position: absolute;
+        top: 150px;
+        left: 0;
         height:200px ;
     }
     
@@ -251,26 +248,23 @@ left: 0;
         width: 33.33%;
         position: absolute;
         top: 150px;
-left: 33.3%;
+        left: 33.3%;
         height:200px ;
-    
     }
     
     .box3{
         width: 33.33%;
         position: absolute;
-top: 150px;
-left: 66.6%;
+        top: 150px;
+        left: 66.6%;
         height:200px ;
-    
     }
-  
-    
-   
-
 }
 
-/* page 2 */
+/* Media Query End */
+
+
+/* Index 2 tab start */
 
 .navtab2{
     width: 100%;
@@ -280,8 +274,7 @@ left: 66.6%;
     flex-wrap: wrap ;
     gap: 30px;
     overflow: hidden;
-
-
+    color: #e8bcfd;
 }
 
 .gm{
